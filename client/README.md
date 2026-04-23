@@ -1,3 +1,4 @@
+<img src="client/screenshots/landingpage.png" alt="Logo" style="border-radius: 20px;">
 # SecureVote — E-Voting Client
 
 SecureVote is a **Next.js (App Router)** web client for a course-style **electronic voting** system. It combines **MongoDB** for persistence, **NextAuth.js v5** (credentials) for sessions, and **RSA-OAEP (SHA-256)** so ballot payloads stored in the database are not plain candidate IDs.
