@@ -21,7 +21,9 @@ class Settings:
     JWT_SECRET: str = os.getenv("JWT_SECRET", "fallback_secret_key")
     JWT_ALGORITHM: str = os.getenv("JWT_ALGORITHM", "HS256")
     JWT_EXPIRY_HOURS: int = int(os.getenv("JWT_EXPIRY_HOURS", 2))
-
+    
+    # VITE_APP_URL
+    VITE_APP_URL: str = os.getenv("VITE_APP_URL", "http://localhost:8080")
 # Initialize settings
 settings = Settings()
 

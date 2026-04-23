@@ -1,4 +1,4 @@
-<img src="client/public/appposter.png" alt="Logo" style="border-radius: 10px;">
+<img src="client/public/appposter.png" alt="Logo" style="border-radius: 20px;">
 
 # Encrypted Voting System
 
